@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/08/2017, 10:52:10 PM
+    Author     : Kervin
+*/
+
+form{
+    margin:0 auto;
+    width:400px;
+    padding:1em;
+    border:1px solid #CCC;
+    border-radius:1em;
+}
+
+form div + div{
+    margin-top:1em;
+}
+
+
+
+.tabla tr:nth-child(even) { background: #D8D8D8 };
+
+.tabla tr td:nth-child(2){
+    text-align:left;    
+}
+.tabla tr td:nth-child(1){
+    text-align:center;
+}
+tbody tr td:nth-child(3){
+    text-align:right;    
+}
+
+.tabla thead{    
+    background: #000000;
+    color:#ffffff;
+}
